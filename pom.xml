@@ -158,8 +158,8 @@
     </build>
 	<repositories>
     <repository>
-      <id>${NEXUS-GRP-REPO}</id>
-      <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${NEXUS-GRP-REPO}/</url>
+      <id>${k-maven-group}</id>
+      <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${k-maven-group}/</url>
     </repository>
   </repositories>
 </project>
