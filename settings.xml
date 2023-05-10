@@ -30,7 +30,7 @@
     <mirror>
       <id>${maven-central}</id>
       <name>${maven-central}</name>
-      <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${NEXUS-GRP-REPO}/</url>
+      <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${k-maven-group}/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
